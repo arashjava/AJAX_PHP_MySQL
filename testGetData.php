@@ -2,7 +2,7 @@
 $projName= $_POST['postProjName'];
 
 
-			   	$res_id=MySQLi_Connect('localhost','root','baaykdazyg','ProjectShare');
+			   	$res_id=MySQLi_Connect('localhost','root','','ProjectShare');
 				if(MySQLi_Connect_Errno()) {
 	                echo "Connection to database Error...";
 				}
